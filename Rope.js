@@ -1,5 +1,5 @@
 class Rope{
-constuctor( bodyA,pointB){
+constructor( bodyA,pointB){
 var options={
 bodyA:bodyA,
 pointB:pointB,
@@ -24,7 +24,7 @@ this.rope.bodyA=null;
 
 }
 display(){
-//if(this.rope.bodyA){
+if(this.rope.bodyA){
  var pointA=this.pointA;
  var pointB=this.pointB;
  push();
@@ -32,7 +32,7 @@ display(){
  strokeWeight(3);
  line(pointB.x,pointB.y,pointA.x,pointA.y);
 pop();
-
+}
 
 
 
